@@ -1,0 +1,56 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.text-pink {
+  color: #e88aa9 !important;
+}
+
+.bg-pink {
+  background-color: #f7c7d4 !important;
+  color: white;
+}
+
+.btn-pink {
+  background-color: #f7c7d4;
+  color: white;
+  border: none;
+}
+
+.btn-pink:hover,
+.btn-outline-pink:hover {
+  background-color: #e88aa9;
+  color: white;
+}
+
+.btn-outline-pink {
+  color: #e88aa9;
+  border: 1px solid #e88aa9;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card img {
+  border-radius: 12px 12px 0 0;
+}
+
+.alert-pink {
+  background-color: #f7c7d4;
+  color: #fff;
+  font-weight: 600;
+}
+.alert-pink a {
+  color: #fff;
+  text-decoration: underline;
+}
